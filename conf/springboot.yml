@@ -1,0 +1,10 @@
+app:
+   couchdb:
+      host: 'localhost'
+      port: 22
+      timeout: 2
+      user: ''
+      password: ''
+spring:
+   main:
+      allow-circular-references: true
