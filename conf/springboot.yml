@@ -1,10 +1,14 @@
-app:
-   couchdb:
-      host: 'localhost'
-      port: 22
-      timeout: 2
-      user: ''
-      password: ''
 spring:
    main:
       allow-circular-references: true
+
+app:
+  source:
+    folder: "/home/azkaban/sftp-example/test"
+  sftp:
+    password: ''
+    user: "azkaban"
+    host: "localhost"
+    port: 22
+    timeout: 5000
+
